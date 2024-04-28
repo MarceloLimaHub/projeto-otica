@@ -45,6 +45,8 @@
 
 .cardContato span {
     margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .iconeContatos {
