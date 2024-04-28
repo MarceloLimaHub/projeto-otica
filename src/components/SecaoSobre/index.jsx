@@ -19,7 +19,7 @@ export default function SecaoSobre() {
                     </div>
                     <div className={styles.cards}>
                         <h4>Atendimento flexível</h4>
-                        <p>Nossa equipe possui é treinada para te atender</p>
+                        <p>Nossa equipe é treinada para te atender</p>
                     </div>
 
                     <Image src={Atendimento} className={styles.imgCard}/>
