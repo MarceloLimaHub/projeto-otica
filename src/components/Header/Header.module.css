@@ -1,0 +1,42 @@
+.header {
+    padding: 10px 15px;
+}
+
+.header div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgLogo {
+    width: 150px;
+    max-height: 40px;
+    object-fit: contain;
+}
+
+.links  {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 5px;
+    font-size: 18px;
+    padding: 5px;
+    color: #000;
+}
+
+
+@media (max-width: 768px) {
+    .header div {
+        flex-direction: column;
+    }
+
+    .header nav {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 10px;
+        border-top: 2px solid #aaadaf;
+        display: flex;
+        justify-content: space-around;
+    }
+}
